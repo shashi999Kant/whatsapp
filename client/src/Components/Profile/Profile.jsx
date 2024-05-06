@@ -43,8 +43,8 @@ const Profile = ({handleProfileDisplay}) => {
     const data = new FormData();
     data.append("file", pics);
     data.append("upload_preset", "whatsapp");
-    data.append("cloud_name", "dvx5lm9pe");
-    fetch("https://api.cloudinary.com/v1_1/dvx5lm9pe/image/upload", {
+    data.append("cloud_name", "dfjycgg8a");
+    fetch("https://api.cloudinary.com/v1_1/dfjycgg8a/image/upload", {
       method: "POST",
       body: data,
     })
